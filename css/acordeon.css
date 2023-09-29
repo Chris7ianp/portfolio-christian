@@ -41,7 +41,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('img/arrow-top.svg');
+    background-image: url('../img/arrow-top.svg');
     transition: .25;
 
 }
