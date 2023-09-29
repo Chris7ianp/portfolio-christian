@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Christian Paulo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/acordeon.css">
+    <link rel="stylesheet" href="css/languages.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/skills.css">
+    
+</head>
+
+<body>
+   <main class="main"> 
+        <header class="header">
+            <img src="img/eu.png" alt="Foto do perfil" class="photo">
+            
+            <h1 class="title">
+                Olá, <br>eu sou o <br>Christian Paulo
+            </h1>  
+
+            <div class="information">
+                <p class="job">Suporte Técnico</p>
+                <p class="location">Rio de Janeiro - BR</p>
+                <p class="phone">
+                    <a href="tel:(21) 9 6686-9631">(21) 9 6686-9631</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:christian.paulo.rj@gmail.com">christian.paulo.rj@gmail.com</a>
+                </p>
+            </div>
+         </header>
+
+         <section class="acordeon open">
+            <button class="trigger" type="button">
+                Skills
+            </button>
+            
+            <div class="content">
+                <div class="skills"> 
+                <section class="tools">
+                    <h4>Ferramentas</h4>
+                    <ul>
+                        <li>
+                            <img src="/icones/languages/windows.svg" alt="WINDOWS" title="WINDOWS"> 
+                        </li>
+                        <li>
+                            <img src="/icones/languages/c.svg" alt="C#" title="C#"> 
+                        </li>
+                        <li>
+                            <img src="/icones/languages/net.svg" alt=".NET" title=".NET"> 
+                        </li>
+                        <li>
+                            <img src="/icones/languages/html.svg" alt="HMTL" title="HTML"> 
+                        </li>
+                        <li>
+                            <img src="/icones/languages/css.svg" alt="CSS" title="CSS">
+                        </li>
+                        <li>
+                            <img src="/icones/languages/github.svg" alt="GITHUB" title="GITHUB">
+                        </li>
+                        </ul>
+                </section>    
+
+                <section class="personal">  
+                    <h4>Pessoal:</h4>
+                    <ul>
+                        <li>Liderança</li>
+                        <li>Facilidade de Comunicação</li>
+                        <li>Organização</li>
+                        <li>Trabalho em Equipe</li>
+                        <li>Flexicibilidade</li>
+                        <li>Proatividade</li>
+                    </ul>
+                    </section>
+                </div>    
+            </div>
+         </section>
+
+         <section class="acordeon ">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+            
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês (técnico)</li>
+                </ul>
+            </div>
+         </section>
+                  
+         <section class="acordeon">
+            <button class="trigger" type="button">
+                Portfólio
+            </button>
+            
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title github">Desafio DIO. Sistema de Estacionamento</span>
+                        <a href="https://github.com/Chris7ianp/trilha-net-fundamentos-desafio" target="_blank">https://github.com/Chris7ianp/trilha-net-fundamentos-desafio</a>
+                    </li>
+                    <li>
+                        <span class="title github">Criando uma Calculadora Simples com Form .Net</span>
+                        <a href="https://github.com/Chris7ianp/Calculadora-Form">https://github.com/Chris7ianp/Calculadora-Form</a>
+                    </li>
+                    <li>
+                        <span class="title github">Desafio DIO. Hospedagem de Hotel</span>
+                        <a href="https://github.com/Chris7ianp/trilha-net-explorando-desafio">https://github.com/Chris7ianp/trilha-net-explorando-desafio</a>
+                    </li>
+                </ul>
+            </div>
+
+         </section>
+
+         <section class="acordeon">
+            <button class="trigger" type="button">
+                Experiencia Profissional
+            </button>
+            
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <!--<span class="title">Front-end Developer / dio.me</span><br>
+                        <br><span class="period">Jan 2020 - Current</span> -->
+                        <p><h4>
+                            A procura da primeira experiênce em desenvolvimento back-and
+                        </p></h4>
+                    </li>
+                </ul>
+            </div>
+
+         </section>
+   </main>
+
+    <script src="/js/acordeon.js"></script>
+</body>
+</html>
