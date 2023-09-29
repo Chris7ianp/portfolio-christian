@@ -15,7 +15,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/img/ponto.svg');
+    background-image: url('img/ponto.svg');
 }
 
 .header .photo{
@@ -62,19 +62,19 @@
 }
 
 .information .job::before {
-    background-image: url('/icones/user.svg');
+    background-image: url('icones/user.svg');
 }
 
 .information .location::before {
-    background-image: url('/icones/location.svg');
+    background-image: url('icones/location.svg');
 }
 
 .information .email::before {
-    background-image: url('/icones/email.svg');
+    background-image: url('icones/email.svg');
 }
 
 .information .phone::before{
-    background-image: url('/icones/whats.svg');
+    background-image: url('icones/whats.svg');
 }
 
 @media only screen and (min-width: 600px){
