@@ -15,7 +15,11 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
+<<<<<<< HEAD
+    background-image: url('/img/ponto.svg');
+=======
     background-image: url('../img/ponto.svg');
+>>>>>>> b4952458a7ae5d0084c7bd18bd0073c4dedc9f97
 }
 
 .header .photo{
