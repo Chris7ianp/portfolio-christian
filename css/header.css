@@ -81,7 +81,7 @@
     background-image: url('../icones/whats.svg');
 }
 
-.information .phone::before{
+.information .linkedin::before{
     background-image: url('../icones/linkedin.png');
 }
 
