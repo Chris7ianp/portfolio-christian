@@ -81,6 +81,10 @@
     background-image: url('../icones/whats.svg');
 }
 
+.information .phone::before{
+    background-image: url('../icones/linkedin.png');
+}
+
 @media only screen and (min-width: 600px){
     .header {
         display: grid;
